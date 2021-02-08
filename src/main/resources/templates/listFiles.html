@@ -15,11 +15,9 @@
 <hr/>
 
 <h4>Upload Multiple Files:</h4>
-<form method="POST" enctype="multipart/form-data" th:action="@{/upload-multiple-files}">
-    <input type="file" name="files" multiple>
-    <p>dataSetId: <input type="text" th:field="*{dataSetId}" /></p>
-    <p>countOfRows: <input type="text" th:field="*{countOfRows}" /></p>
-    <button type="submit">Submit</button>
+<br method="POST" enctype="multipart/form-data" th:action="@{/upload-multiple-files}">
+<input type="file" name="files" multiple><br/></br>
+<button type="submit">Submit</button>
 </form>
 
 <hr/>
